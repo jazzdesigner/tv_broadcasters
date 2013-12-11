@@ -1,0 +1,96 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Flumotion WebTV | TV Broadcasters</title>
+	
+	<link href="css/reseter.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="css/mainStyles.css" rel="stylesheet" type="text/css" media="screen" />
+</head>
+
+<body>
+<div id="wrap" class="program">
+	<div id="wrapcontent">
+		<div id="logo"><a href="index.html"><img src="img/mainLogo.png" border="0" /></a></div>
+		<div id="header">
+			<div id="menu">
+					<ul>
+					<li><a href='index.html'>FEATURED VIDEOS</a></li>
+					<li><a href='tvshows.html'>TV SHOWS</a></li>
+					<li><a href='#'>TRAILERS</a></li>
+					<li><a href='#'>MOVIES</a></li>
+					<li class="selected"><a href='#'>LIVE BROADCAST</a></li>
+					</ul>
+			</div>
+			<div id="searchfield"><input name="Search Videos" type="text" class="formulario" value="Search Videos" size="20" maxlength="10" /></div>
+		</div>
+		
+		<!--Main-->
+		<div id="mainContent">
+			<div id="programBoxCentered">
+				<div id="programPlayerCentered"><img src="img/player_640x360_plain.jpg" /></div>
+			</div>
+			
+            <div id="horizontalPlaylist">
+            	<ul>
+                	<li><a href="#"><img src="img/thumbSmallChannel.jpg" /></a></li>
+                	<li><a href="#"><img src="img/thumbSmallChannel.jpg" /></a></li>
+                	<li><a href="#"><img src="img/thumbSmallChannel.jpg" /></a></li>
+                	<li><a href="#"><img src="img/thumbSmallChannel.jpg" /></a></li>
+                	<li><a href="#"><img src="img/thumbSmallChannel.jpg" class="chselected"/></a></li>
+                	<li><a href="#"><img src="img/thumbSmallChannel.jpg" /></a></li>
+                	<li><a href="#"><img src="img/thumbSmallChannel.jpg" /></a></li>
+                	<li><a href="#"><img src="img/thumbSmallChannel.jpg" /></a></li>
+                </ul>
+            </div>
+           
+            <!--por aquí-->
+			<div id="liveBox">
+            	<ul>
+                <li><div id="broadcastContent"><h4 class="broadcastSub">Watch the</h4><h2 class="latestBroadcasts">Latest Broadcasts</h2><a href="#"><img src="img/broadcast_button.png" style="float:right; margin-top: -39px;"/></a></div></li>
+                <li class="active"><div id="broadcastContent"><h4 class="broadcastSub">You Are Watching</h4><h2 class="latestBroadcasts">A-TV News</h2></div></li>
+				<li class="last"><div id="broadcastContent"><h4 class="broadcastSub">Next Broadcast</h4><h2 class="latestBroadcasts">A-TV Sport</h2><img src="img/broadcastTime.png" style="float:right; margin-top: -43px;"/></div></li>
+                </ul>
+            	<ul>
+                <li class="blank">&nbsp;</li>
+                <li class="watchMore">
+                	<div id="broadcastContent">
+                	<h4 class="broadcastSub">Watch More Episodes</h4>
+					<div id="seasonDropdownLive">
+						<form name="form" id="form">
+							<select name="jumpMenu" class="dropdownMenu" id="jumpMenu" onchange="MM_jumpMenu('parent',this,1)">
+							<option value="#"selected="selected">Season 1</option>
+			        		<option value="#">Season 2</option>
+							<option value="#">Season 3</option>
+						</select>
+					</form>
+					</div>
+                    </div>
+				</li>
+				<li class="lastSN"><a href="#"><img src="img/socialnetworksLive.png"></a></li>
+                </ul>
+            </div>
+		</div>
+	</div>
+	
+	<!--Footer-->
+	<div id="footer">
+		<div id="footerContent">
+			<div id="footerLeftMenu">
+				<ul>
+			    	<li><a href="index.html">Home</a><br /><a href="index.html">Featured Videos</a><br /><a href="tvshows.html">Tv Shows</a><br /><a href="#">Trailers</a></li>
+			        <li><a href="#">Movies</a><br /><a href="#">Live Broadcasts</a><br /><a href="#">Latest Broadcasts</a><br /><a href="#">Channels</a></li>
+			        <li><a href="#">Playlists</a><br /><a href="#">Terms and Conditions</a><br /><a href="#">Legal Note</a><br /><a href="#">Web Map</a><br /></li>
+				</ul>
+			</div>
+			<div id="socialNetworks"><a href="#" ><img src="img/twitter.png" id="socialNetIcons"/></a><br /><a href="#" ><img src="img/facebook.png" id="socialNetIcons"/></a><br /><a href="#" ><img src="img/google.png" id="socialNetIcons"/></a></div>
+			<div id="footerLogoWrap">
+				<div id="footerLogo"><a href="#"><img src="img/logoFooter.png"/></a></div>
+			</div>
+		</div>
+	</div>
+</div>
+
+</div>
+</body>
+</html>
